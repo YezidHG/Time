@@ -15,13 +15,13 @@ public class Tiempo {
     private int hora;
     private int minutos;
     private int segundos;
-
+//----------Constructor
     public Tiempo(int hora, int minutos, int segundos) {
         this.hora = hora;
         this.minutos = minutos;
         this.segundos = segundos;
     }
-    
+//----------Metodos  
     public void setHora(int horas){
         this.hora = horas;
     }
@@ -31,18 +31,6 @@ public class Tiempo {
     public void setSegundos(int segundo){
         this.segundos = segundo;
     }
-
-    public int getHora() {
-        return hora;
-    }
-
-    public int getMinutos() {
-        return minutos;
-    }
-
-    public int getSegundos() {
-        return segundos;
-    } 
     
     public void datos(){
         Scanner scanner = new Scanner(System.in);
